@@ -12,6 +12,7 @@ export default async function Home() {
   // console.log(res);
   return (
     <main className={styles.main}>
+      <h1 className="text-4xl pb-16">Popular movies</h1>
       <div className="grid gap-16 grid-cols-fluid">
         {res.results.map((movie) => (
           <Movie
